@@ -1,0 +1,11 @@
+{
+  "name": "software-architecture-project",
+  "version": "1.0.0",
+  "description": "Project of the subject Software Architecture",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
