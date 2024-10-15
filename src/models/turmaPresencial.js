@@ -1,7 +1,8 @@
+const Turma = require("./turma");
+
 const TurmaPresencial = (codigo, nota, frequencia) => {
   return {
-    codigo,
-    nota,
+    ...Turma(codigo, nota),
     frequencia,
     aprovado: () => {
       return nota > 6 && frequencia >= 75
